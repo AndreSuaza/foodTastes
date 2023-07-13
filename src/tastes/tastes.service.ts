@@ -28,7 +28,7 @@ export class TastesService {
                 {nameFood: { $in: search }}, 
                 {preparation: { $in: search }}, 
                 {"ingredients.ingredient": { $in: search }}
-            ]});
+            ]}).populate("restaurants").exec();
     }
 
 }
