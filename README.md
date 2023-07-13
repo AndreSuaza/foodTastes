@@ -23,6 +23,16 @@ $ yarn run start
 $ yarn run start --debug --watch
 ```
 
+## Funcionalidad
+
+Se creó un servicio para que con preferencias de comida te de sugerencias de platos y restaurantes 
+
+servicio: /tastes?tastes=””
+
+Para consumir el servicio es necesario enviar por Query parameters las preferencias de comidas del usuarios 
+ya sea una ejemplo  /tastes?tastes=cebolla o sean varias separadas por ( , )   ejemplo /tastes?tastes=cebolla, vegana el servicio te retornara los platos que contengan cebolla y/o sean del tipo de comida vegana y los restaurantes donde se encuentren disponibles 
+
+
 ## Documentacion
 
 (https://docs.nestjs.com/).
