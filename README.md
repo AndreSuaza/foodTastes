@@ -3,7 +3,7 @@
 
 [Nest](https://github.com/nestjs/nest) Bienvenidos al proyecto TastesFood.
 
-## Installation
+## Instalación
 
 ```bash
 $ yarn install
@@ -13,7 +13,7 @@ Se debe crear el archivo .env con la variable de entorno URL_DB que tiene la cad
 mongodb+srv://<user>:<password>@mongodb.net/tastes
 ```
 
-## Running the app
+## Correr la Aplicación
 
 ```bash
 # development
@@ -23,11 +23,14 @@ $ yarn run start
 $ yarn run start --debug --watch
 ```
 
-## Support
+## Documentacion
 
-Documentacion del Framework
+(https://docs.nestjs.com/).
+
+## Soporte
+
 (https://docs.nestjs.com/support).
 
-## License
+## Licensia 
 
 Nest is [MIT licensed](LICENSE).
