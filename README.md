@@ -32,12 +32,15 @@ servicio: /tastes?tastes=””
 Para consumir el servicio es necesario enviar por Query parameters las preferencias de comidas del usuarios 
 
 #Preferencia 
-/tastes?tastes=cebolla 
+/tastes?tastes=cebolla
+ 
 En esta caso el servicio te retornara los platos que contengan cebolla
 
-Tambien se pueden enviar varias separadas por ( , ) 
+Tambien se pueden enviar varias separadas por ( , )
+
 #Preferencias 
-/tastes?tastes=cebolla, vegana 
+/tastes?tastes=cebolla, vegana
+
 El servicio te retornara los platos que contengan cebolla y/o sean del tipo de comida vegana y los restaurantes donde se encuentren disponibles 
 ```
 
