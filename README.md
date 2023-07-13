@@ -24,16 +24,22 @@ $ yarn run start --debug --watch
 ```
 
 ## Funcionalidad
-
+```bash
 Se creó un servicio para que con preferencias de comida te de sugerencias de platos y restaurantes 
 
 servicio: /tastes?tastes=””
 
 Para consumir el servicio es necesario enviar por Query parameters las preferencias de comidas del usuarios 
-ya sea una por ejemplo: /tastes?tastes=cebolla 
-o sean varias separadas por ( , ) ejemplo: /tastes?tastes=cebolla, vegana 
-El servicio te retornara los platos que contengan cebolla y/o sean del tipo de comida vegana y los restaurantes donde se encuentren disponibles 
 
+#Preferencia 
+/tastes?tastes=cebolla 
+En esta caso el servicio te retornara los platos que contengan cebolla
+
+Tambien se pueden enviar varias separadas por ( , ) 
+#Preferencias 
+/tastes?tastes=cebolla, vegana 
+El servicio te retornara los platos que contengan cebolla y/o sean del tipo de comida vegana y los restaurantes donde se encuentren disponibles 
+```
 
 ## Documentacion
 
